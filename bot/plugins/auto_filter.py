@@ -201,12 +201,21 @@ async def auto_filter(bot, update):
         reply_markup = InlineKeyboardMarkup(result[0])
 
         try:
-            await bot.send_message(
+
+            await bot.send_photo(
+
                 chat_id = update.chat.id,
-                text=f"Found {(len_results)} Results For Your Query: <code>{query}</code>",
+
+                photo="https://telegra.ph/file/81abd5e1f11937b24d94e.jpg",
+
+                caption=f"👉 <a href='https://t.me/Troll_Cinemas_Group'> Share & Support </a>",
+
                 reply_markup=reply_markup,
+
                 parse_mode="html",
+
                 reply_to_message_id=update.message_id
+
             )
 
         except ButtonDataInvalid:
