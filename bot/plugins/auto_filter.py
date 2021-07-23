@@ -208,7 +208,7 @@ async def auto_filter(bot, update):
 
                 photo="https://telegra.ph/file/81abd5e1f11937b24d94e.jpg",
 
-                caption=f"👉 <a href='https://t.me/Troll_Cinemas_Group'> Share & Support </a>",
+                caption=f"👉**NB :** <a href='https://t.me/joinchat/tRrBCnvMsTwxMWQ9'> ** ഇവിടെ ക്ലിക്ക് ചെയ്ത് ഈ ചാനലിൽ ജോയിൻ ചെയ്തതിനു ശേഷം മാത്രം തായെ ഉള്ള ബട്ടൺ അമർത്തുക അല്ലെങ്കിൽ 🗃️ Error കാണിക്കും 🤭** </a>",
 
                 reply_markup=reply_markup,
 
