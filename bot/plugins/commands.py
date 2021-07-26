@@ -117,7 +117,7 @@ Join on our channel to get movies ✅
         return
 
     buttons = [[
-        InlineKeyboardButton('🎭 Group 🎭', url='https://t.me/Troll_Cinemas_Group'),
+        InlineKeyboardButton('🎭 Join Our  Group 🎭', url='https://t.me/Troll_Cinemas_Group'),
         InlineKeyboardButton('', url ='https://t.me/https://t.me/githubsoursecode')],                               
      [
         InlineKeyboardButton('', url='https://t.me/jns_fc_bots')
